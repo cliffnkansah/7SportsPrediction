@@ -276,8 +276,8 @@ print(f"The best model is '{best_model_name}' with RMSE of {best_rmse:.2f}")
 # This ensures that the model is optimized for generalization to unseen data while fine-tuning its hyperparameters.
 # Define the hyperparameter grid for Random Forest
 param_grid = {
-    'n_estimators': [100, 200, 300],  # Adjust the values as needed
-    'max_depth': [10, 20, 30]  # Adjust the values as needed
+    'n_estimators': [100, 200, 300], 
+    'max_depth': [10, 20, 30] 
 }
 
 # Create the Random Forest model
