@@ -108,6 +108,11 @@ feature_corr
 highest_correlations = feature_corr[1:11]
 highest_correlations
 
+#Correlation does not imply causation.
+#Just because two variables are highly correlated doesn't mean that one directly causes the other.
+#It's possible that they are both influenced by a third variable, or the relationship is coincidental.
+#therefore after more testing and training we came up with these features for training.
+#features to be used for trainin
 #features to be used for training
 subsetx = [
     'movement_reactions',
